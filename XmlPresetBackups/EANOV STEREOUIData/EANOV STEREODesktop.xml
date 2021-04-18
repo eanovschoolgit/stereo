@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0" y="0" width="300" height="447"
+             fileName="{PROJECT_FOLDER}back21.png"/>
+  <Component type="ScriptPanel" id="Panel1" x="198" y="402" width="41" height="38"
+             itemColour="3254779904" itemColour2="2801795072">
+    <Component type="ScriptFloatingTile" id="FloatingTile1" x="0" y="0" ContentType="AudioAnalyser"
+               bgColour="3355443" itemColour="4294967295" itemColour2="4473924"
+               textColour="4294951115" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;ANALYSER&quot;,&#13;&#10;  &quot;Index&quot;: 0&#13;&#10;}"
+               width="40" height="38" parentComponent="Panel1"/>
+  </Component>
+  <Component type="ScriptSlider" id="Knob1" x="48" y="97" numStrips="128"
+             width="212" height="201" scaleFactor="0.4" max="200" defaultValue="100"
+             middlePosition="100" filmstripImage="{PROJECT_FOLDER}knob (19).png"
+             text="STEREO" isPluginParameter="1" pluginParameterName="STEREO"/>
+  <Component type="ScriptButton" id="Button1" x="133" y="26" width="31" height="38"
+             processorId="STEREO2" parameterId="Enabled" bgColour="16777215"
+             itemColour="3355443" itemColour2="1118481" text="HYPER STEREO"
+             isVertical="0" filmstripImage="{PROJECT_FOLDER}hyper.png"/>
+  <Component type="ScriptSlider" id="Knob2" x="120" y="333" numStrips="128"
+             width="56" height="59" scaleFactor="0.1" max="100" middlePosition="0"
+             filmstripImage="{PROJECT_FOLDER}knob (19).png" processorId="STEREO1"
+             parameterId="Balance" min="-100" text="BALANCE" pluginParameterName="PAN"
+             isPluginParameter="1"/>
+</ContentProperties>
